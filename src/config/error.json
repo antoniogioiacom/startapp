@@ -1,0 +1,15 @@
+{
+	"error" : {
+		"message" : "Something went wrong...",
+		"invalid" : "Form submission not valid",
+		"empty" : "Cannot be empty",
+		"name" : "Name not valid, use only letters and numbers",
+		"len" : "Length not valid",
+		"number" : "Number not valid",
+		"min_number" : "Number not in valid range",
+		"notfound" : "Page not available",
+		"server" : "Internal server error",
+		"timeout" : "Failed to process request, please try again",
+		"limit" : "Max limit of requests reached"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"app" : {
+		"title" : "STARTAPP",
+		"description" : "",
+		"static" : {
+			"server" : "koa",
+			"public" : "./public",
+			"build" : 0
+		},
+		"env" : "dev",
+		"port" : 1312,
+		"btc_address" : "",
+		"email_address" : ""
+	}
+}

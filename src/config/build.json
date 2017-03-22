@@ -1,0 +1,41 @@
+{
+	"root" : "/",
+	"src" : "/src/",
+	"static" : "/public/",
+	"fingerprint" : 0,
+	"clean" : {
+		"files" : [ "config.json" ],
+		"dir" : [ "public/" ]
+	},
+	"config" : {
+		"files" : [ "app", "db", "options", "error" ]
+	},
+	"fonts" : {
+		"dir" : "fonts/",
+		"files" : [ "cutivemono" ],
+		"default_font" : "\"cutivemono\", ",
+		"font_family" : "\"HelveticaNeue-Light\", \"Helvetica Neue Light\", \"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\","
+	},
+	"style" : {
+		"dir" : "style/",
+		"files" : [ "fonts", "base", "mediaquery" ]
+	},
+	"scripts" : {
+		"dir" : "scripts/",
+		"files" : [ "application" ]
+	},
+	"image" : {
+		"dir" : "image/",
+		"svg" : {
+			"width" : 128,
+			"height" : 128,
+			"compress" : true
+		}
+	},
+	"html" : {
+		"index" : {
+			"filename" : "index.html",
+			"views" : [ "header", "index", "footer" ]
+		}
+	}
+}
